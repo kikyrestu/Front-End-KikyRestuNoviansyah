@@ -1,4 +1,4 @@
-Repository ini merupakan pengumpulan tugas untuk mata kuliah **Dasar Pemrograman Frontend** yang berfokus pada manipulasi array menggunakan JavaScript. Dalam proyek ini, berbagai teknik seperti pengurutan (sorting), pemfilteran (filtering), dan pemetaan (mapping) array diterapkan, dan hasilnya ditampilkan secara dinamis di halaman web.
+Repository ini merupakan pengumpulan tugas untuk mata kuliah **Dasar Pemrograman Frontend**
 
 ---
 
