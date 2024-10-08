@@ -1,5 +1,3 @@
-# Manipulasi Array dengan JavaScript - Tugas Mata Kuliah Dasar Pemrograman Frontend
-
 Repository ini merupakan pengumpulan tugas untuk mata kuliah **Dasar Pemrograman Frontend** yang berfokus pada manipulasi array menggunakan JavaScript. Dalam proyek ini, berbagai teknik seperti pengurutan (sorting), pemfilteran (filtering), dan pemetaan (mapping) array diterapkan, dan hasilnya ditampilkan secara dinamis di halaman web.
 
 ---
@@ -24,5 +22,24 @@ Mata kuliah **Dasar Pemrograman Frontend** mengajarkan mahasiswa untuk memahami 
 - **Document Object Model (DOM)**: Manipulasi struktur HTML melalui JavaScript.
 - **Asynchronous programming (AJAX & Promise)**: Menangani operasi yang berjalan secara asynchronous tanpa memblokir eksekusi kode.
 - **Library jQuery**: Mempermudah manipulasi DOM dan penanganan event dengan lebih sederhana.
+
+---
+
+## 🎓 Data Mahasiswa
+
+- **Nama**: Kiky Restu Noviansyah  
+- **NIM**: 1123102110  
+- **Kelas**: SP3.1  
+- **Institusi**: STIKOM PGRI Banyuwangi  
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+- **HTML5**: Untuk struktur dasar dan konten halaman web.
+- **JavaScript (ES6)**: Bahasa utama yang digunakan untuk logika dan manipulasi array.
+- **CSS3** *(optional)*: Untuk styling sederhana (jika diperlukan).
+- **AJAX**: Untuk demonstrasi asynchronous programming dalam JavaScript.
+- **jQuery**: Digunakan untuk mempermudah manipulasi DOM dan menangani event.
 
 ---
