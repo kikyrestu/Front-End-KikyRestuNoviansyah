@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Frontend P3</title>
+</head>
+<body>
+    <h2>Hasil Pengurutan Angka dan Huruf</h2>
+    <p id="hasil-angka"></p>
+    <p id="hasil-huruf"></p>
+
+    <h2>Filter Angka Genap</h2>
+    <p id="angka-genap"></p>
+
+    <h2>Array Genap Ganjil (True/False)</h2>
+    <p id="cek-genap-ganjil"></p>
+    <script>
+        const daftarAngka = [20, 10, 3, 30, 58, 42, 6, 9];
+        const daftarHuruf = ['z', 'a', 'c', 'g', 'p'];
+
+        const angkaTerurut = daftarAngka.sort((a, b) => a - b);
+        const hurufTerurut = daftarHuruf.sort();
+
+        document.getElementById('hasil-angka').textContent = "Angka Terurut: " + angkaTerurut;
+        document.getElementById('hasil-huruf').textContent = "Huruf Terurut: " + hurufTerurut;
+
+        const kumpulanAngka = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+        const angkaHanyaGenap = kumpulanAngka.filter(angka => angka % 2 === 0);
+
+        document.getElementById('angka-genap').textContent = "Angka Genap: " + angkaHanyaGenap;
+
+        const hasilCekGenapGanjil = kumpulanAngka.map(angka => angka % 2 === 0);
+
+        document.getElementById('cek-genap-ganjil').textContent = "Cek Genap/Ganjil: " + hasilCekGenapGanjil;
+    </script>
+</body>
+</html>
